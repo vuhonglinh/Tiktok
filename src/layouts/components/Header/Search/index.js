@@ -7,7 +7,7 @@ import AccountItem from '~/components/AccountItem';
 import { faCircleXmark, faSpinner, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useRef, useState } from 'react';
 import { useDebounce } from '~/hooks';
-import * as searchServices from '~/apiServices/searchServices';
+import * as searchServices from '~/services/searchService';
 
 const cx = classNames.bind(styles);
 
