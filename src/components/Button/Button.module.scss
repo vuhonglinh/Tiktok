@@ -1,6 +1,10 @@
 .wrapper {
+    display: inline-flex;
     font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
+    font-family: 'ProximaNova', sans-serif;
     min-width: 100px;
     justify-content: center;
     padding: 9px 16px;
