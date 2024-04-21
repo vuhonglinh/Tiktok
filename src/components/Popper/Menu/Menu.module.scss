@@ -13,6 +13,10 @@
 .menu-popper {
     padding-bottom: 8px;
 }
+
+.menu-body{
+    overflow-y: auto;
+}
 ///Menu item
 .menu-item {
     justify-content: flex-start;
@@ -36,6 +40,7 @@
     position: relative;
     height: 50px;
     margin-top: -8px;
+    flex-shrink: 0;
 }
 .back-btn {
     width: 50px;
